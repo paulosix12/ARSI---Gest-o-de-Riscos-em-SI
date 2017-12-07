@@ -1,0 +1,10 @@
+@extends('app')
+@section('conteudo')
+
+@foreach($clientes as $c)
+
+
+{{($clientes->id)}}
+
+@endforeach
+@endsection
